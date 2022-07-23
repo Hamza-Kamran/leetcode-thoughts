@@ -1,26 +1,15 @@
-|--------------+------------+---------------------------------------------+------------------------------------------------------------------------|
-| Problem name | Difficulty | Link                                        | My Thoughts                                                            |
-|--------------+------------+---------------------------------------------+------------------------------------------------------------------------|
-| Happy Number | Easy       | https://leetcode.com/problems/happy-number/ | Keep track of seen numbers in hashset. If any are seen before, its a cycle| 
-|--------------+------------+---------------------------------------------+------------------------------------------------------------------------|
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-leetcode[+] [unix] (22:01 19/07/2022)                                   4,30 All
--- INSERT --
+|--------------------------+----------------+------------+---------------------------------------------------------+-----------------------------------------------------------------|
+| Data Structure/Main Idea | Problem name   | Difficulty | Link                                                    | My Thoughts                                                     |
+|--------------------------+----------------+------------+---------------------------------------------------------+-----------------------------------------------------------------|
+| Set                      | Happy Number   | Easy       | https://leetcode.com/problems/happy-number/             | Keep track of seen numbers in hashset. If any are seen before,  |
+|                          |                |            |                                                         | its a cycle                                                     |
+|--------------------------+----------------+------------+---------------------------------------------------------+-----------------------------------------------------------------|
+| Multiple for loops/ recu | Spiral matrix  | Med        | https://leetcode.com/problems/spiral-matrix/            | Have multiple for loops, each doing one direction in the matrix |
+|                          |                |            |                                                         | Make sure to have proper indexing, to avoid duplicates.         |
+|--------------------------+----------------+------------+---------------------------------------------------------+-----------------------------------------------------------------|
+| DFS                      | where the ball | Med        | https://leetcode.com/problems/where-will-the-ball-fall/ | Follow each ball till end, dfs down the matrix, move            |
+|                          | will fall      |            |                                                         | move according to entry of matrix. Careful indexing             |
+|--------------------------+----------------+------------+---------------------------------------------------------+-----------------------------------------------------------------|
 
+| Linked List | Odd Even List | Med | https://leetcode.com/problems/odd-even-linked-list/ | Sentinel Node e.g ListNode(0) then return node.next at the end. |
+|-------------+---------------+-----+-----------------------------------------------------+-----------------------------------------------------------------|
